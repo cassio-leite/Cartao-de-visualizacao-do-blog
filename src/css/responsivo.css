@@ -1,0 +1,15 @@
+@media (max-width: 576px) {
+    .cartao {
+        margin: 2rem auto;
+        width: 90%;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 10px;
+        
+    }
+
+}

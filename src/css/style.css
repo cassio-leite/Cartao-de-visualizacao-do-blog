@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    background-color: #f5d04E;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+
+}
+
+.cartao {
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 1rem;
+    border: 1px solid black;
+    border-bottom: 7px solid;
+    border-right: 7px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 200px;
+
+
+}
+
+.imagem {
+    padding: 10px;
+    margin: 1px;
+    border-radius: 25px;
+}
+
+h3 {
+    display: flex;
+    font-size: 16px;
+    background-color: #f5d04E;
+    margin: 5px;
+    width: 27%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 590;
+}
+
+p {
+    font-weight: 800;
+    color: #AEAEAE;
+    font-size: 15px;
+}
+
+.figura {
+    display: flex;
+    align-items: center;
+
+}
+
+h4 {
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 950;
+    align-items: center;
+
+}
